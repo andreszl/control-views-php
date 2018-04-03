@@ -1,0 +1,12 @@
+RewriteEngine On
+
+RewriteRule ^inicio$                  index.php
+RewriteRule ^contacto$                index.php?c=website&a=contact
+RewriteRule ^servicios$               index.php?c=website&a=services
+RewriteRule ^sobre-nosotros$          index.php?c=website&a=about_us
+
+RewriteRule ^iniciar-sesion$          index.php?c=login&a=index
+
+RewriteRule ^registrarse$             index.php?c=register&a=index
+
+RewriteRule ^panel$                   index.php?c=user&a=dashboard
